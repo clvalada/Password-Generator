@@ -78,7 +78,7 @@ Further testing confirmed that to be true only with passwords under 75 character
 Given the time constraints of this project, I am submitting it "as-is" and will return and troubleshoot once I have more experience with JavaScript.
 
 ## Link to Application
-https://clvalada.github.io/challenge-3/
+https://clvalada.github.io/challenge-3-password-generator/
 
 ## Screenshots
 
