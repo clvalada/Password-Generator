@@ -85,6 +85,11 @@ I used multiple resources to write the code including:
 JavaScript Array Reference: https://www.w3schools.com/jsref/jsref_obj_array.asp
 Stack Overflow - random value from JS array: https://www.w3schools.com/jsref/jsref_obj_array.asp
 MDN Web Docs JavaScript Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+I used this Repository for inspiration:
+https://github.com/manonthemon/Password-Generator
+
+When I got stuck I used this Reddit article for help:
+https://www.reddit.com/r/AskProgramming/comments/katbot/javascript_help_with_password_generator/
 
 
 ## Collaborators
