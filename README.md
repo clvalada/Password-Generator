@@ -3,8 +3,6 @@ Password Generator - Challenge 3
 
 This week's Challenge required me to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that I will write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
-
 ## User Story
 
 ```
@@ -45,7 +43,7 @@ First, I created a new GitHub Repository complete with starter code and ensured 
 
 Second, I confirmed the CSS sheet and JS file were linked to the HTML correctly and tested the starter code. The HTML page loaded and displayed like the mockup but the red button did not work. The page was responsive to multiple screen sizes.
 
-Then, I reviewed the starter code and began to pseudo code using the instructor example as a guide 
+Then, I reviewed the starter code and instructor-provided pseudo code (below.)
 
 ```
 function generatePassword(){
@@ -70,4 +68,29 @@ function generatePassword(){
   return password;
 }
 ```
+## Results
+
+The application meets most of the Acceptance Criteria. It prompts the user to select password criteria (number of characters, lowercase, uppercase, numeric, and/or special characters,) and it does generate a new password displayed as an alert. This generated password contains always the number of characters specified by the user. However, the generated password does not always contain the expected characters. For example, sometimes the generated password will be only lowercase letters. 
+
+After testing, it appeared the application was generating passwords comprised of only the characters from the user's first selection. For example, if the user answered "No" to lowercase, "No" to uppercase, "Yes" to numbers, and "Yes" to special characters, the generated password would contain only numbers. 
+
+Further testing confirmed that to be true only with passwords under 75 characters. If the user chose passwords with 75 or more characters and chose to include all character types, the generated functioned as intended. 
+
+Given the time constraints of this project, I am submitting it "as-is" and will return and troubleshoot once I have more experience with JavaScript.
+
+
+## Resources
+
+I used multiple resources to write the code including:
+JavaScript Array Reference: https://www.w3schools.com/jsref/jsref_obj_array.asp
+Stack Overflow - random value from JS array: https://www.w3schools.com/jsref/jsref_obj_array.asp
+
+
+## Collaborators
+
+None
+
+## License
+
+MIT
 
