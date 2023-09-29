@@ -78,6 +78,16 @@ Further testing confirmed that to be true only with passwords under 75 character
 
 Given the time constraints of this project, I am submitting it "as-is" and will return and troubleshoot once I have more experience with JavaScript.
 
+## Screenshots
+
+Homepage
+![The password generator homepage] (assets/images/homepage.png)
+
+Password Generator Length Alert
+
+Password Generator Lowercase Alert
+
+Pass
 
 ## Resources
 
@@ -99,4 +109,5 @@ None
 ## License
 
 MIT
+
 
