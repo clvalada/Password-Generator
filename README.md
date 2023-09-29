@@ -78,29 +78,46 @@ Further testing confirmed that to be true only with passwords under 75 character
 
 Given the time constraints of this project, I am submitting it "as-is" and will return and troubleshoot once I have more experience with JavaScript.
 
+## Link to Application
+https://clvalada.github.io/challenge-3/
+
 ## Screenshots
 
 Homepage
-![The password generator homepage] (assets/images/homepage.png)
+![The password generator homepage](./assets/images/homepage.png)
 
 Password Generator Length Alert
+![Password Generator Length Alert.](./assets/images/length.png)
 
 Password Generator Lowercase Alert
+![Password Generator Lowercase Alert.](./assets/images/lowercase.png)
 
-Pass
+Password Generator Uppercase Alert
+![Password Generator Uppercase Alert.](./assets/images/uppercase.png)
+
+Password Generator Number Alert
+![Password Generator Number Alert.](./assets/images/numbers.png)
+
+Password Generator Special Characters Alert
+![Password Generator Special Characters Alert.](./assets/images/special.png)
+
+Password Generated
+![Password Generator Alert.](./assets/images/password.png)
 
 ## Resources
 
 I used multiple resources to write the code including:
 JavaScript Array Reference: https://www.w3schools.com/jsref/jsref_obj_array.asp
+
 Stack Overflow - random value from JS array: https://www.w3schools.com/jsref/jsref_obj_array.asp
+
 MDN Web Docs JavaScript Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
+
 I used this Repository for inspiration:
 https://github.com/manonthemon/Password-Generator
 
 When I got stuck I used this Reddit article for help:
 https://www.reddit.com/r/AskProgramming/comments/katbot/javascript_help_with_password_generator/
-
 
 ## Collaborators
 
