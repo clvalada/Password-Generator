@@ -84,6 +84,7 @@ Given the time constraints of this project, I am submitting it "as-is" and will 
 I used multiple resources to write the code including:
 JavaScript Array Reference: https://www.w3schools.com/jsref/jsref_obj_array.asp
 Stack Overflow - random value from JS array: https://www.w3schools.com/jsref/jsref_obj_array.asp
+MDN Web Docs JavaScript Reference: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 
 ## Collaborators
