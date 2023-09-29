@@ -70,11 +70,11 @@ function generatePassword(){
 ```
 ## Results
 
-The application meets most of the Acceptance Criteria. It prompts the user to select password criteria (number of characters, lowercase, uppercase, numeric, and/or special characters,) and it does generate a new password displayed as an alert. This generated password contains always the number of characters specified by the user. However, the generated password does not always contain the expected characters. For example, sometimes the generated password will be only lowercase letters. 
+The application meets most of the Acceptance Criteria. It prompts the user to select password criteria (number of characters, lowercase, uppercase, numeric, and/or special characters,) and it does generate a new password displayed as an alert. This generated password always contains the number of characters specified by the user. However, the generated password does not always contain the expected characters. For example, sometimes the generated password will be only lowercase letters. 
 
 After testing, it appeared the application was generating passwords comprised of only the characters from the user's first selection. For example, if the user answered "No" to lowercase, "No" to uppercase, "Yes" to numbers, and "Yes" to special characters, the generated password would contain only numbers. 
 
-Further testing confirmed that to be true only with passwords under 75 characters. If the user chose passwords with 75 or more characters and chose to include all character types, the generated functioned as intended. 
+Further testing confirmed that to be true only with passwords under 75 characters. If the user chose passwords with 75 or more characters and chose to include all character types, the application functioned as intended. 
 
 Given the time constraints of this project, I am submitting it "as-is" and will return and troubleshoot once I have more experience with JavaScript.
 
