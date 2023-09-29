@@ -34,6 +34,7 @@ THEN the password is either displayed in an alert or written to the page
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
+![Password Generator Mockup](./assets/03-javascript-homework-demo.png)
 
 ## Process
 
